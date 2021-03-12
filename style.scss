@@ -1,0 +1,16 @@
+$darkColor: #292929;
+$lightColor: #EF4423;
+
+@mixin background{
+    background-color: $lightColor;
+}
+@include background(){
+    nav, footer{
+
+    }
+}
+@mixin background1{
+    background-color: $darkColor;
+}
+@include background1(){
+}
